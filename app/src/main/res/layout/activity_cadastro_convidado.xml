@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ana.trabalhopratico1.CadastroConvidadoActivity"
+    android:orientation="vertical"
+    >
+
+    <!--<TextView
+        android:id="@+id/tituloConvidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/cadastroConvidado"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        /> -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroConvidado"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/nomeConvidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/nomeConvidado"
+        android:inputType="textCapWords"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/numeroConvidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/numeroConvidado"
+        android:inputType="phone"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/emailConvidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/emailConvidado"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        />
+    <Button
+        android:id="@+id/buttonCadastraConvidado"
+        android:onClick="cadastrarConvidado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/botaoCadastroConvidado"
+        />
+
+    <Button
+        android:id="@+id/buttonCadastraConvidadoAgenda"
+        android:onClick="cadastrarConvidadoAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/cadastrarAgendaContato"
+        />
+</LinearLayout>

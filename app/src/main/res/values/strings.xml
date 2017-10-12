@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TrabalhoPratico1</string>
+    <string name="action_settings">Settings</string>
+    <string name="nomeEvento">Nome do Evento</string>
+    <string name="DataIni">Data Início</string>
+    <string name="DataFim">Data Fim</string>
+    <string name="Hora">Horário Início</string>
+    <string name="titulo">Insira os dados do evento</string>
+    <string name="nomeOrganizador">Nome do Organizador</string>
+    <string name="horaFim">Hora Fim</string>
+    <string name="botaoCadastro">Criar Evento</string>
+    <string name="botaoVoltar">Voltar</string>
+    <string name="numeroOrganizador">Número do Organizador</string>
+    <string name="emailOrganizador">Email do Organizador</string>
+    <string name="evento">Evento</string>
+    <string name="organizador">Organizador</string>
+    <string name="dataEHora">Data/Hora</string>
+    <string name="agenda">Cadastrar na agenda</string>
+    <string name="convidado">Ver convidados</string>
+    <string name="cadastroConvidado">Insira os dados do convidado</string>
+    <string name="nomeConvidado">Nome do Convidado</string>
+    <string name="emailConvidado">Email do Convidado</string>
+    <string name="numeroConvidado">Número do Convidado</string>
+    <string name="botaoCadastroConvidado">Cadastrar Convidado</string>
+    <string name="cadastrarAgendaContato">Cadastrar na agenda de contatos</string>
+    <string name="enviarFace">Compartillhar no Facebook</string>
+    <string name="enviarLinkedin">Compartilhar no Linkedin</string>
+
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.ana.trabalhopratico1.EventoCadastradoActivity">
+
+        <TextView
+            android:id="@+id/textViewLabelEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/evento"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewNomeEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewDataEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textViewHoraEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewLabelOrg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/organizador"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/nomeOrganizadorEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/verConvidados"
+            android:onClick="verConvidados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/convidado"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+            <Button
+                android:id="@+id/cadastrarAgenda"
+                android:onClick="cadastrarNaAgenda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agenda"
+                android:layout_gravity="center"
+
+                />
+
+        <Button
+            android:id="@+id/enviarLinkedin"
+            android:onClick="enviarLinkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enviarLinkedin"
+            android:layout_gravity="center"
+            />
+
+
+
+            <Button
+                android:id="@+id/enviarFace"
+                android:onClick="enviarFace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enviarFace"
+                android:layout_gravity="center"
+                />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
